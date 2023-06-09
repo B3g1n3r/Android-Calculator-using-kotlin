@@ -1,0 +1,26 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Default state -->
+    <item android:state_pressed="false">
+        <shape>
+            <solid android:color="#ffffff" /> <!-- Background color -->
+            <corners android:radius="100dp" /> <!-- Corner radius -->
+        </shape>
+    </item>
+
+    <!-- Pressed state -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#ffffff" /> <!-- Background color when pressed -->
+            <corners android:radius="18dp" />
+            <!-- Corner radius -->
+        </shape>
+    </item>
+
+    <!-- Disabled state -->
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="#BDBDBD" /> <!-- Background color when disabled -->
+            <corners android:radius="8dp" /> <!-- Corner radius -->
+        </shape>
+    </item>
+</selector>
